@@ -1,1 +1,83 @@
 提出課題
+
+Tadahiro Sato@PANHEAD MINGW64 ~
+$ mkdir git_challenge
+
+Tadahiro Sato@PANHEAD MINGW64 ~
+$ cd git_challenge
+
+Tadahiro Sato@PANHEAD MINGW64 ~/git_challenge
+$ git init
+Initialized empty Git repository in C:/Users/hungr/git_challenge/.git/
+
+Tadahiro Sato@PANHEAD MINGW64 ~/git_challenge (main)
+$ echo "Hello, world!" > hello_world.txt
+
+Tadahiro Sato@PANHEAD MINGW64 ~/git_challenge (main)
+$ cat hello_world.txt
+Hello, world!
+
+Tadahiro Sato@PANHEAD MINGW64 ~/git_challenge (main)
+$ git add hello_world.txt
+warning: in the working copy of 'hello_world.txt', LF will be replaced by CRLF the next time Git touches it
+
+Tadahiro Sato@PANHEAD MINGW64 ~/git_challenge (main)
+$ git commit -m "hello_world.txtを追加"
+[main (root-commit) aac5719] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+Tadahiro Sato@PANHEAD MINGW64 ~/git_challenge (main)
+$ echo "こんにちは、世界！" >> hello_world.txt
+
+Tadahiro Sato@PANHEAD MINGW64 ~/git_challenge (main)
+$ cat hello_world.txt
+Hello, world!
+こんにちは、世界！
+
+Tadahiro Sato@PANHEAD MINGW64 ~/git_challenge (main)
+$ git add hello_world.txt
+warning: in the working copy of 'hello_world.txt', LF will be replaced by CRLF the next time Git touches it
+
+Tadahiro Sato@PANHEAD MINGW64 ~/git_challenge (main)
+$ git commit -m "日本語訳を追加"
+[main aa402fa] 日本語訳を追加
+ 1 file changed, 1 insertion(+)
+
+Tadahiro Sato@PANHEAD MINGW64 ~/git_challenge (main)
+$ git log --oneline
+aa402fa (HEAD -> main) 日本語訳を追加
+aac5719 hello_world.txtを追加
+
+
+課題提出用コマンド
+
+Tadahiro Sato@PANHEAD MINGW64 ~/git_challenge (main)
+$ mkdir kadai_005
+
+Tadahiro Sato@PANHEAD MINGW64 ~/git_challenge (main)
+$ cd kadai_005
+
+Tadahiro Sato@PANHEAD MINGW64 ~/git_challenge/kadai_005 (main)
+$ echo "提出課題" > kadai_005.txt
+
+Tadahiro Sato@PANHEAD MINGW64 ~/git_challenge/kadai_005 (main)
+$ cat kadai_005
+cat: kadai_005: No such file or directory
+
+Tadahiro Sato@PANHEAD MINGW64 ~/git_challenge/kadai_005 (main)
+$ cat kadai_005.txt
+提出課題
+
+Tadahiro Sato@PANHEAD MINGW64 ~/git_challenge/kadai_005 (main)
+$ ^C
+
+Tadahiro Sato@PANHEAD MINGW64 ~/git_challenge/kadai_005 (main)
+$ git add kadai_005.txt
+warning: in the working copy of 'kadai_005/kadai_005.txt', LF will be replaced by CRLF the next time Git touches it
+
+Tadahiro Sato@PANHEAD MINGW64 ~/git_challenge/kadai_005 (main)
+$ git commit -m "kadai_005/kadai_005.txtを追加"
+[main f7c3a66] kadai_005/kadai_005.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 kadai_005/kadai_005.txt
