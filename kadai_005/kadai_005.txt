@@ -14,10 +14,6 @@ Tadahiro Sato@PANHEAD MINGW64 ~/git_challenge (main)
 $ echo "Hello, world!" > hello_world.txt
 
 Tadahiro Sato@PANHEAD MINGW64 ~/git_challenge (main)
-$ cat hello_world.txt
-Hello, world!
-
-Tadahiro Sato@PANHEAD MINGW64 ~/git_challenge (main)
 $ git add hello_world.txt
 warning: in the working copy of 'hello_world.txt', LF will be replaced by CRLF the next time Git touches it
 
@@ -29,11 +25,6 @@ $ git commit -m "hello_world.txtを追加"
 
 Tadahiro Sato@PANHEAD MINGW64 ~/git_challenge (main)
 $ echo "こんにちは、世界！" >> hello_world.txt
-
-Tadahiro Sato@PANHEAD MINGW64 ~/git_challenge (main)
-$ cat hello_world.txt
-Hello, world!
-こんにちは、世界！
 
 Tadahiro Sato@PANHEAD MINGW64 ~/git_challenge (main)
 $ git add hello_world.txt
@@ -60,17 +51,6 @@ $ cd kadai_005
 
 Tadahiro Sato@PANHEAD MINGW64 ~/git_challenge/kadai_005 (main)
 $ echo "提出課題" > kadai_005.txt
-
-Tadahiro Sato@PANHEAD MINGW64 ~/git_challenge/kadai_005 (main)
-$ cat kadai_005
-cat: kadai_005: No such file or directory
-
-Tadahiro Sato@PANHEAD MINGW64 ~/git_challenge/kadai_005 (main)
-$ cat kadai_005.txt
-提出課題
-
-Tadahiro Sato@PANHEAD MINGW64 ~/git_challenge/kadai_005 (main)
-$ ^C
 
 Tadahiro Sato@PANHEAD MINGW64 ~/git_challenge/kadai_005 (main)
 $ git add kadai_005.txt
